@@ -2,6 +2,7 @@ import React from 'react';
 
 import Book from './Book';
 import Form from './Form';
+import App from './App';
 
 import configureStore from '../store';
 import * as actions from '../actions';
@@ -24,8 +25,8 @@ class BookList extends React.Component {
   deleteBook = (id) => {
     this.store.dispatch(actions.deleteBook(id));
   };
-  addBook = (title, price) => {
-    this.store.dispatch(actions.addBook(title, price));
+  addBook = (title, price,author) => {
+    this.store.dispatch(actions.addBook(title, price,author));
   };
   render() {
     return (
@@ -40,9 +41,12 @@ class BookList extends React.Component {
           );
         })}
         <Form addBookAction={this.addBook} />
+        <App/>
+
       </ul>
     );
   }
+   
 }
 
 export default BookList;

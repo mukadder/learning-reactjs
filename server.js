@@ -22,6 +22,9 @@ app.get('/api/books', (req, res) => {
     });
   }));
 });
+app.get('/api/authors', (req, res) => {
+  res.send(data.authors)
+});
 
 app.post('/api/books', (req, res) => {
   const newBook = {
