@@ -20,6 +20,19 @@ class CreateForm extends React.Component {
     handleChangeName(event) {
         this.setState({ name: event.target.value });
     }
+    setStateFromRecipe(recipe) {
+        this.setState({
+            name: recipe ? recipe.name : '',
+            ingredients: recipe ? recipe.ingredients : '',
+            instructions: recipe ? recipe.instructions : '',
+        });
+    }
+    componentDidMount() {
+        this.setStateFromRecipe(this.props.recipe);
+    }
+    componentWillReceiveProps(nextProps) {
+        this.setStateFromRecipe(nextProps.recipe);
+    }
 
     resetForm() {
         this.setState({
@@ -30,13 +43,19 @@ class CreateForm extends React.Component {
     }
     handleSubmit(event) {
         event.preventDefault();
-        const { name, ingredients, instructions } = this.state;
-        this.props.onSubmit(name, ingredients, instructions)
-        this.resetForm();
-        this.setState({created:true});
-        this.refs.name.focus();
-    }
 
+        const { name, ingredients, instructions } = this.state;
+
+        if (this.props.recipe) {
+            this.props.onEdit(name, ingredients, instructions);
+        } else {
+            this.props.onCreate(name, ingredients, instructions);
+
+            this.resetForm();
+            this.setState({ created: true });
+            this.refs.name.focus();
+        }
+    }
         handleChangeIngredients(event) {
         this.setState({ ingredients: event.target.value });
     }
@@ -92,7 +111,7 @@ class CreateForm extends React.Component {
 
             <input
                 className='btn btn-default'
-                type='submit'
+                type='submit' value={this.props.recipe ?'Edit':'Create'}
 
             />
         </form>)
@@ -101,6 +120,8 @@ class CreateForm extends React.Component {
 }
 CreateForm.propTypes = {
     onSubmit: React.PropTypes.func.isRequired,
+    recipe: React.PropTypes.object,
+    onEdit: React.PropTypes.func.isRequired
 
 };
 export default CreateForm;

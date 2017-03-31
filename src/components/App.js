@@ -21,12 +21,27 @@ class App extends React.Component {
     }
     showCreate (){
         this.setState({showCreate:true})
+        selectedRecipe:null
     }
     handleSelectRecipe(recipe){
        this.setState({
            selectedRecipe:recipe,
            showCreate:false
        })
+    }
+    handleRecipeEdited(name,ingredients,instructions){
+        const {recipes,selectedRecipe}=this.state;
+        const editedRecipe = Object.assign({},selectedRecipe,{
+            name,
+            ingredients,
+            instructions
+        });
+        const newRecipes = recipes.map(recipe =>
+        recipe===selectedRecipe ?editedRecipe:recipe);
+        this.updateRecipes(newRecipes);
+        this.handleSelectRecipe(editedRecipe);
+
+
     }
 
     handleDeleteRecipe(recipeToDelete){
@@ -46,6 +61,11 @@ class App extends React.Component {
         this.setState({
             recipes:newRecipes
         });
+    }
+    handleEditRecipe(){
+        this.setState({
+            showCreate:true
+        })
     }
     handleCreateRecipe(name,ingredients,instructions){
        const newRecipes =this.state.recipes.concat({
@@ -94,9 +114,14 @@ onSelectRecipe={this.handleSelectRecipe.bind(this)}
 </div>
 <div className ='cols-xs-8'>
     {this.state.showCreate ?
-        <CreateForm onSubmit={this.handleCreateRecipe.bind(this)}/> :<RecipeDetail
+        <CreateForm
+            onCreate={this.handleCreateRecipe.bind(this)}
+        recipe={selectedRecipe}
+                    onEdit ={this.handleRecipeEdited.bind(this)}
+        /> :<RecipeDetail
         recipe={this.state.selectedRecipe}
         onDelete={this.handleDeleteRecipe.bind(this)}
+        onEdit={this.handleEditRecipe.bind(this)}
         />}
 
 

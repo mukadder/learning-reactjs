@@ -6,7 +6,7 @@
  */
 import  * as React from 'react'
 
-const RecipeDetail = ({recipe,onDelete}) => {
+const RecipeDetail = ({recipe,onDelete, onEdit}) => {
     const confirmDelete = () => {
         if (confirm('Are you sure you want to delete this recipe?')) {
             onDelete(recipe);
@@ -27,7 +27,7 @@ return(
                 <button
                     type='button'
                     className='btn btn-default'
-
+                    onClick={onEdit}
                 >Edit recipe
                 </button>
                 <button
@@ -46,6 +46,7 @@ return(
 
 RecipeDetail.propTypes = {
     recipe: React.PropTypes.object,
-    onDelete: React.PropTypes.func.isRequired
+    onDelete: React.PropTypes.func.isRequired,
+    onEdit: React.PropTypes.func.isRequired
 };
 export default RecipeDetail;
