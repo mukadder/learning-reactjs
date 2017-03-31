@@ -1,0 +1,6 @@
+exports[`test Thumbnail renders an img tag with the correct src 1`] = `
+<div>
+  <img
+    src="http://test.com/test.jpg" />
+</div>
+`;
