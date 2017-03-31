@@ -31,16 +31,7 @@ class BookList extends React.Component {
   render() {
     return (
       <ul className="book-list">
-        {this.state.books.map(book => {
-          return (
-            <Book
-              key={book.id}
-              book={book}
-              handleDelete={this.deleteBook}
-            />
-          );
-        })}
-        <Form addBookAction={this.addBook} />
+
         <App/>
 
       </ul>
