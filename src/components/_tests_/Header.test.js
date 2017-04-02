@@ -6,7 +6,7 @@ import renderer from 'react-test-renderer';
 
 import Header from '../Header';
 
-test('Header renders tt correctly', () => {
+test('Header renders tt qcorrectly', () => {
     const component = renderer.create(
         <Header src='http://test.com/test.jpg' />
     );

@@ -3,7 +3,7 @@ import { shallow } from 'enzyme';
 
 import Thumbnails from '../Thumbnails';
 
-import { MOCK_500PX_PHOTOS_RESPONSE } from '../../test/mocks';
+import { MOCK_500PX_PHOTOS_RESPONSE } from '../../testls/mocks';
 
 test('Thumbnails renders correctly', () => {
   const component = shallow(

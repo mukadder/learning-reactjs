@@ -13,7 +13,7 @@
     "enzyme": "^2.7.1",
     "fetch-mock": "^5.9.3",
     "isomorphic-fetch": "^2.2.1",
-    "jest": "^18.1.0",
+    
     "react-addons-test-utils": "^15.4.2",
     "react-test-renderer": "^15.4.2",
     "sinon": "^1.17.7"
@@ -40,7 +40,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "jest",
+    "test": "jestq",
     "eject": "react-scripts eject"
   }
 }
