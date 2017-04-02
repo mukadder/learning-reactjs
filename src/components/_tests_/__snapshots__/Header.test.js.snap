@@ -1,4 +1,4 @@
-exports[`test Header renders correctly 1`] = `
+exports[`test Header renders tt correctly 1`] = `
 <nav
   className="navbar navbar-default">
   <div

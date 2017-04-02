@@ -1,0 +1,384 @@
+exports[`test Thumbnails renders correctly 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "float": "left",
+        "marginBottom": "10px",
+        "marginRight": "10px",
+      }
+    }>
+    <a
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }>
+      <Thumbmnail
+        src="https://drscdn.500px.org/photo/28818265/w%3D280_h%3D280/d6d67cf8a444515fb63f4193b356995d?v=2" />
+    </a>
+  </div>
+  <div
+    style={
+      Object {
+        "float": "left",
+        "marginBottom": "10px",
+        "marginRight": "10px",
+      }
+    }>
+    <a
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }>
+      <Thumbmnail
+        src="https://drscdn.500px.org/photo/54298810/w%3D280_h%3D280/8cf2d3ed45967c81c864d88c2a530bcd?v=0" />
+    </a>
+  </div>
+  <div
+    style={
+      Object {
+        "float": "left",
+        "marginBottom": "10px",
+        "marginRight": "10px",
+      }
+    }>
+    <a
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }>
+      <Thumbmnail
+        src="https://drscdn.500px.org/photo/113383393/w%3D280_h%3D280/ad0438689059e279a297571dcc6944b9?v=2" />
+    </a>
+  </div>
+  <div
+    style={
+      Object {
+        "float": "left",
+        "marginBottom": "10px",
+        "marginRight": "10px",
+      }
+    }>
+    <a
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }>
+      <Thumbmnail
+        src="https://drscdn.500px.org/photo/16722085/w%3D280_h%3D280/3da6edaa1b2dadfcec697d1cb0b7cefa?v=2" />
+    </a>
+  </div>
+  <div
+    style={
+      Object {
+        "float": "left",
+        "marginBottom": "10px",
+        "marginRight": "10px",
+      }
+    }>
+    <a
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }>
+      <Thumbmnail
+        src="https://drscdn.500px.org/photo/72946285/w%3D280_h%3D280/8ecfe32db351e9ba94ee2119c6f314d8?v=0" />
+    </a>
+  </div>
+  <div
+    style={
+      Object {
+        "float": "left",
+        "marginBottom": "10px",
+        "marginRight": "10px",
+      }
+    }>
+    <a
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }>
+      <Thumbmnail
+        src="https://drscdn.500px.org/photo/59101464/w%3D280_h%3D280/1c13ffdc91b8c23dbc78ffa591b8b0f7?v=0" />
+    </a>
+  </div>
+  <div
+    style={
+      Object {
+        "float": "left",
+        "marginBottom": "10px",
+        "marginRight": "10px",
+      }
+    }>
+    <a
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }>
+      <Thumbmnail
+        src="https://drscdn.500px.org/photo/111277863/w%3D280_h%3D280/3570b2b75334ead484269001d9c920c6?v=2" />
+    </a>
+  </div>
+  <div
+    style={
+      Object {
+        "float": "left",
+        "marginBottom": "10px",
+        "marginRight": "10px",
+      }
+    }>
+    <a
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }>
+      <Thumbmnail
+        src="https://drscdn.500px.org/photo/59808318/w%3D280_h%3D280/f1e0085f28490ca494764562e8e96f2e?v=0" />
+    </a>
+  </div>
+  <div
+    style={
+      Object {
+        "float": "left",
+        "marginBottom": "10px",
+        "marginRight": "10px",
+      }
+    }>
+    <a
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }>
+      <Thumbmnail
+        src="https://drscdn.500px.org/photo/112268887/w%3D280_h%3D280/8c6776e7713e341f3429652c5df70303?v=2" />
+    </a>
+  </div>
+  <div
+    style={
+      Object {
+        "float": "left",
+        "marginBottom": "10px",
+        "marginRight": "10px",
+      }
+    }>
+    <a
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }>
+      <Thumbmnail
+        src="https://drscdn.500px.org/photo/79759257/w%3D280_h%3D280/adb108f47ae3c6058efa72bae7fd5ea1?v=0" />
+    </a>
+  </div>
+  <div
+    style={
+      Object {
+        "float": "left",
+        "marginBottom": "10px",
+        "marginRight": "10px",
+      }
+    }>
+    <a
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }>
+      <Thumbmnail
+        src="https://drscdn.500px.org/photo/26876155/w%3D280_h%3D280/acd15a06029563250cf25c8b8ab0aa99?v=2" />
+    </a>
+  </div>
+  <div
+    style={
+      Object {
+        "float": "left",
+        "marginBottom": "10px",
+        "marginRight": "10px",
+      }
+    }>
+    <a
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }>
+      <Thumbmnail
+        src="https://drscdn.500px.org/photo/114080513/w%3D280_h%3D280/1afe0b5a329900aa62aa53845009c20d?v=6" />
+    </a>
+  </div>
+  <div
+    style={
+      Object {
+        "float": "left",
+        "marginBottom": "10px",
+        "marginRight": "10px",
+      }
+    }>
+    <a
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }>
+      <Thumbmnail
+        src="https://drscdn.500px.org/photo/72967163/w%3D280_h%3D280/3a5d1a4b90c9f3d4f5a98c723e110032?v=0" />
+    </a>
+  </div>
+  <div
+    style={
+      Object {
+        "float": "left",
+        "marginBottom": "10px",
+        "marginRight": "10px",
+      }
+    }>
+    <a
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }>
+      <Thumbmnail
+        src="https://drscdn.500px.org/photo/120152835/w%3D280_h%3D280/27eff1a4ddfc77b62386f1e9da16a6e8?v=2" />
+    </a>
+  </div>
+  <div
+    style={
+      Object {
+        "float": "left",
+        "marginBottom": "10px",
+        "marginRight": "10px",
+      }
+    }>
+    <a
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }>
+      <Thumbmnail
+        src="https://drscdn.500px.org/photo/96980771/w%3D280_h%3D280/a400881c3c5c4fb9abff8fbfe6637b63?v=9" />
+    </a>
+  </div>
+  <div
+    style={
+      Object {
+        "float": "left",
+        "marginBottom": "10px",
+        "marginRight": "10px",
+      }
+    }>
+    <a
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }>
+      <Thumbmnail
+        src="https://drscdn.500px.org/photo/69078149/w%3D280_h%3D280/384f7ac95bb3fe6d04635f2702f0aeb2?v=0" />
+    </a>
+  </div>
+  <div
+    style={
+      Object {
+        "float": "left",
+        "marginBottom": "10px",
+        "marginRight": "10px",
+      }
+    }>
+    <a
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }>
+      <Thumbmnail
+        src="https://drscdn.500px.org/photo/88434815/w%3D280_h%3D280/905a609a6be2f4a111a165c146a0fd03?v=13" />
+    </a>
+  </div>
+  <div
+    style={
+      Object {
+        "float": "left",
+        "marginBottom": "10px",
+        "marginRight": "10px",
+      }
+    }>
+    <a
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }>
+      <Thumbmnail
+        src="https://drscdn.500px.org/photo/91282777/w%3D280_h%3D280/419c57de9001c136e3cf944a5ef2c011?v=6" />
+    </a>
+  </div>
+  <div
+    style={
+      Object {
+        "float": "left",
+        "marginBottom": "10px",
+        "marginRight": "10px",
+      }
+    }>
+    <a
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }>
+      <Thumbmnail
+        src="https://drscdn.500px.org/photo/73818641/w%3D280_h%3D280/07e5cf3cdba2bd768d048c18baa42609?v=0" />
+    </a>
+  </div>
+  <div
+    style={
+      Object {
+        "float": "left",
+        "marginBottom": "10px",
+        "marginRight": "10px",
+      }
+    }>
+    <a
+      onClick={[Function]}
+      style={
+        Object {
+          "cursor": "pointer",
+        }
+      }>
+      <Thumbmnail
+        src="https://drscdn.500px.org/photo/20052621/w%3D280_h%3D280/c95808e6a4bbb01e78afc5d76d56866b?v=2" />
+    </a>
+  </div>
+</div>
+`;

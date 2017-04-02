@@ -1,0 +1,25 @@
+exports[`test SearchForm renders correctly 1`] = `
+<form
+  className="form-inline"
+  onSubmit={[Function]}>
+  <div
+    className="form-group">
+    <input
+      className="form-control"
+      id="search"
+      onChange={[Function]}
+      placeholder="Enter your search"
+      style={
+        Object {
+          "marginRight": "5px",
+        }
+      }
+      type="text" />
+  </div>
+  <button
+    className="btn btn-default"
+    type="submit">
+    Search
+  </button>
+</form>
+`;
