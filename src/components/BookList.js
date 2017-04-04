@@ -7,6 +7,7 @@ import EventEmitter from './Eventemitter'
 import configureStore from '../store';
 import * as actions from '../actions';
 import CountryList from './CountryList'
+import FetchDemo from './FetchDemo'
 class BookList extends React.Component {
   constructor(props) {
     super(props);
@@ -29,9 +30,11 @@ class BookList extends React.Component {
     this.store.dispatch(actions.addBook(title, price,author));
   };
   render() {
+    
     return (
       <ul className="book-list">
-<CountryList/>
+<FetchDemo subreddit="reactjs"/>
+
 
       </ul>
     );
