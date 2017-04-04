@@ -8,12 +8,14 @@ import configureStore from '../store';
 import * as actions from '../actions';
 import CountryList from './CountryList'
 import FetchDemo from './FetchDemo'
+import CartItem from './CartItem'
 class BookList extends React.Component {
   constructor(props) {
     super(props);
     this.store = configureStore();
     this.state = this.store.getState();
   }
+  
   componentDidMount() {
     this.unsubscribe = this.store.subscribe(() => {
       this.setState(this.store.getState());
@@ -29,11 +31,18 @@ class BookList extends React.Component {
   addBook = (title, price,author) => {
     this.store.dispatch(actions.addBook(title, price,author));
   };
+  
   render() {
-    
+    const order = {
+    title: 'Fresh fruits package',
+    image: 'http://images.all-free-download.com/images/graphiclarge/citrus_fruit_184416.jpg',
+    initialQty: 3,
+    price: 8
+};
+
     return (
       <ul className="book-list">
-<FetchDemo subreddit="reactjs"/>
+<CartItem title={order.title} image={order.image} initialQty={order.initialQty} price={order.price}/>
 
 
       </ul>
